@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon-20241001T043051Z-001/favicon/favicon-32x32.png">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+        }
+    </style>
+</head>
+<body>
+  <nav class=" bg-[#243137ff] text-[#BD9F67]">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="./img/logo.png" class="h-10" alt="LOGO" />
+        <span class="self-center text-3xl font-bold whitespace-nowrap dark:text-white">SIC</span>
+      </a>
+      <button id="toggle" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border  rounded-lg text-white md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  ">
+          <li>
+            <a href="./home.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="./about_us.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">About</a>
+          </li>
+          <li>
+           <a href="./gallery.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Events</a>
+         </li>
+          <li>
+            <a href="./service.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Services</a>
+          </li>
+         
+          <li>
+            <a href="./resoure.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Resources</a>
+          </li>
+          <li>
+            <a href="./contact.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+      
+    
+    <h1 class="text-center text-[#BD9F67] my-12  text-3xl md:text-5xl"> Get in touch with us</h1>
+    
+    <section class="px-6 md:px-12 lg:px-36">
+      <section class="text-gray-600 body-font relative rounded bg-[#243137ff] mt-5 px-6">
+          <div class="container py-24 flex flex-col md:flex-row md:space-x-10">
+              <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden p-10 flex items-end justify-start relative">
+                  <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3485.344403770433!2d79.51735077537728!3d29.125030475399466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0854e46fbbcbb%3A0xe8ad2dca724e9699!2sGraphic%20Era%20Hill%20University%2C%20Haldwani%20Campus!5e0!3m2!1sen!2sin!4v1727594912464!5m2!1sen!2sin" style="filter: contrast(1.2);"></iframe>
+                  <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+                      <div class="lg:w-1/2 px-6">
+                          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+                          <p class="mt-1">Tularampur, Near Mahalaxmi Temple, opp. Middas Squar, Haldwani, Uttarakhand 263139</p>
+                      </div>
+                      <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+                          <a class="text-indigo-500 leading-relaxed">example@email.com</a>
+                          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+                          <p class="leading-relaxed">123-456-7890</p>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="lg:w-1/2 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                  <h2 class="text-3xl md:text-4xl mb-1 text-center font-bold title-font text-[#BD9F67]">Contact Us</h2>
+  
+                  <div class="[--clr:#1f1f1f] dark:[--clr:#999999] relative flex flex-row items-center mt-12">
+                      <input
+                          value=""
+                          name="name"
+                          required=""
+                          aria-invalid="false"
+                          placeholder=""
+                          spellcheck="false"
+                          autocomplete="off"
+                          id="name"
+                          type="name"
+                          class="peer dark:text-white pl-2 h-[40px] min-h-[40px] pr-[40px] leading-normal appearance-none resize-none box-border text-base w-full text-inherit block text-left border border-solid bg-white rounded-[10px] m-0 p-0 outline-0 focus-visible:outline-0 focus-visible:border-[#BD9F67] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#BD9F672e] dark:focus-visible:ring-[#BD9F671a]"
+                      />
+                      <label
+                          class="cursor-text text-[--clr] inline-block z-0 text-md mb-px font-normal text-start select-none absolute duration-300 transform origin-[0] pl-4 peer-focus-visible:text-[#BD9F67] peer-focus-visible:translate-y-[-36px] peer-[:not(:placeholder-shown)]:translate-y-[-36px] peer-[:not(:placeholder-shown)]:text-[-36px]"
+                          for="name"
+                      >
+                          Name
+                      </label>
+                      <div class="group w-[40px] absolute top-0 bottom-0 right-0 flex items-center justify-center text-[--clr] peer-focus-visible:text-[#BD9F67] peer-focus-visible:[&amp;_span]:border-[#BD9F67]">
+                          <span class="text-sm absolute cursor-default select-none rounded-[4px] px-1.5 opacity-0 right-0 -z-10 transition-all duration-300 group-hover:opacity-100 group-hover:-translate-y-[calc(100%+18px)]">Required!</span>
+                      </div>
+                  </div>
+  
+                  <div class="[--clr:#1f1f1f] dark:[--clr:#999999] relative flex flex-row items-center mt-8">
+                      <input
+                          value=""
+                          name="email"
+                          required=""
+                          aria-invalid="false"
+                          placeholder=""
+                          spellcheck="false"
+                          autocomplete="off"
+                          id="email"
+                          type="email"
+                          class="peer text-black dark:text-white pl-2 h-[40px] min-h-[40px] pr-[40px] leading-normal appearance-none resize-none box-border text-base w-full text-inherit block text-left border border-solid bg-white dark:bg-zinc-800 rounded-[10px] m-0 p-0 outline-0 focus-visible:outline-0 focus-visible:border-[#BD9F67] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#BD9F672e] dark:focus-visible:ring-[#BD9F671a]"
+                      />
+                      <label
+                          class="cursor-text text-[--clr] inline-block z-0 text-md mb-px font-normal text-start select-none absolute duration-300 transform origin-[0] pl-4 peer-focus-visible:text-[#BD9F67] peer-focus-visible:translate-y-[-36px] peer-[:not(:placeholder-shown)]:translate-y-[-36px] peer-[:not(:placeholder-shown)]:text-[-36px]"
+                          for="email"
+                      >
+                          Email
+                      </label>
+                      <div class="group w-[40px] absolute top-0 bottom-0 right-0 flex items-center justify-center text-[--clr] peer-focus-visible:text-[#BD9F67] peer-focus-visible:[&amp;_span]:border-[#BD9F67]">
+                          <span class="text-sm absolute cursor-default select-none rounded-[4px] px-1.5 opacity-0 right-0 -z-10 transition-all duration-300 group-hover:opacity-100 group-hover:-translate-y-[calc(100%+18px)]">Required!</span>
+                      </div>
+                  </div>
+  
+                  <div class="[--clr:#1f1f1f] dark:[--clr:#999999] relative flex flex-col items-start mt-8">
+                      <textarea
+                          id="message"
+                          name="message"
+                          required
+                          spellcheck="false"
+                          autocomplete="off"
+                          class="peer text-black dark:text-white pl-4 h-[128px] min-h-[128px] pr-[40px] leading-normal appearance-none resize-none box-border text-base w-full border border-solid bg-white dark:bg-zinc-800 rounded-[10px] m-0 p-0 outline-0 focus-visible:outline-0 focus-visible:border-[#BD9F67] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#BD9F672e] dark:focus-visible:ring-[#BD9F671a]"
+                      ></textarea>
+                      <label
+                          for="message"
+                          class="cursor-text text-[--clr] inline-block z-0 text-md font-normal text-start select-none absolute top-2 transition-transform duration-300 transform origin-[0] pl-4 peer-placeholder-shown:translate-y-[40px] peer-placeholder-shown:scale-100 peer-focus:translate-y-[-36px] peer-focus:scale-90 peer-focus:text-[#BD9F67]"
+                      >
+                          Feedback
+                      </label>
+                      <div class="group w-[40px] absolute top-0 bottom-0 right-0 flex items-center justify-center text-[--clr] peer-focus-visible:text-[#BD9F67]">
+                          <span class="text-sm absolute cursor-default select-none rounded-[4px] px-1.5 opacity-0 right-0 -z-10 transition-all duration-300 group-hover:opacity-100 group-hover:-translate-y-[calc(100%+18px)]">Required!</span>
+                      </div>
+                  </div>
+  
+                  <div class="flex justify-center">
+                      <button
+                          class="w-32 mt-6 z-30 py-2 bg-[#BD9F67] rounded-md text-white font-semibold hover:bg-[#B6A97B] focus:outline-none focus:ring focus:ring-[#BD9F67] focus:ring-opacity-50 transition duration-200"
+                      >
+                          Submit
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </section>
+  
+<!-- ====== FAQ Section Start -->
+<section
+   x-data="
+   {
+   openFaq1: false, 
+   openFaq2: false, 
+   openFaq3: false, 
+   openFaq4: false, 
+   openFaq5: false, 
+   openFaq6: false
+   }
+   "
+   class="relative z-20 overflow-hidden  md:px-32 mx-6 md:mx-0 pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]"
+   >
+   <div class="container mx-auto">
+      <div class="flex flex-wrap -mx-4">
+         <div class="w-full px-4">
+            <div class="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
+               <span class="block mb-2 text-lg font-semibold text-[#BD9F67]">
+               FAQ
+               </span>
+               <h2
+                  class="text-dark dark:text-white mb-4 text-3xl font-bold sm:text-[40px]/[48px]"
+                  >
+                  Any Questions? Look Here
+               </h2>
+              
+            </div>
+         </div>
+      </div>
+      <div class="flex flex-wrap -mx-4">
+         <div class="w-full px-4 lg:w-1/2">
+            <!-- card1 -->
+            <div
+            class="w-full p-4 mb-8 bg-[#243137ff] rounded-lg shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8"
+            data-aos="fade-up" 
+            data-aos-delay="100">
+            
+            <button
+              class="flex items-center w-full text-left faq-btn"
+              @click="openFaq1 = !openFaq1">
+              
+              <div
+                class=" hidden md:block bg-primary/5 dark:bg-white/5 text-primary md:mr-5 flex h-10 w-4 items-center justify-center rounded-lg">
+                <!-- Optional icon or image can go here -->
+              </div>
+              
+              <div class="flex-1">
+                <h4 class="mt-1 text-[#BD9F67] text-lg font-semibold text-dark dark:text-white">
+                  What services does the incubation center offer for startups?
+                </h4>
+              </div>
+            </button>
+          
+            <div x-show="openFaq1" class="faq-content  md:pl-[62px] sm:pl-4">
+              <p class="py-3 text-base leading-relaxed text-white">
+                Our incubation center provides a range of services, including mentorship, access to funding opportunities, networking events, office space, and workshops on business development, marketing, and legal compliance.
+              </p>
+            </div>
+          </div>
+          
+            <!-- card2 -->
+            <div
+               class="w-full p-4 mb-8 bg-[#243137ff] rounded-lg shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)]   sm:p-8 lg:px-6 xl:px-8"
+               data-aos="fade-up" data-aos-delay="300">
+               <button
+                  class="flex w-full text-left faq-btn"
+                  @click="openFaq2 = !openFaq2"
+                  >
+                  <div
+                     class=" hidden md:block bg-primary/5  dark:bg-white/5 text-primary mr-5 flex h-10 w-4 max-w-[40px] items-center justify-center rounded-lg"
+                     >
+                    
+                  </div>
+                  <div class="w-full">
+                     <h4
+                        class="mt-1 text-[#BD9F67] text-lg font-semibold text-dark dark:text-white"
+                        >
+                        How can I apply for incubation at your center?
+                     </h4>
+                  </div>
+               </button>
+               <div x-show="openFaq2" class="faq-content  md:pl-[62px] sm:pl-4">
+                  <p
+                     class="py-3 text-base leading-relaxed text-white"
+                     >
+                     To apply for incubation, you need to submit a detailed business proposal outlining your startup idea, market analysis, and business model. Our selection committee will review your application and contact you for further discussion
+                  </p>
+               </div>
+            </div>
+           
+         </div>
+         <div class="w-full px-4 lg:w-1/2">
+            <!-- card 3 -->
+            <div
+               class="w-full p-4 mb-8 bg-[#243137ff] rounded-lg shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)]   sm:p-8 lg:px-6 xl:px-8 " 
+               data-aos="fade-up" data-aos-delay="200">
+               <button
+                  class="flex w-full text-left faq-btn"
+                  @click="openFaq4 = !openFaq4"
+                  >
+                  <div
+                     class=" hidden md:block bg-primary/5 py-7 dark:bg-white/5 text-primary mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg"
+                     >
+                   
+                  </div>
+                  <div class="w-full">
+                     <h4
+                        class="mt-1 text-[#BD9F67] text-lg font-semibold text-dark dark:text-white"
+                        >
+                        Is there any fee to join the incubation program?
+                     </h4>
+                  </div>
+               </button>
+               <div x-show="openFaq4" class="faq-content md:pl-[62px]">
+                  <p
+                     class="py-3 text-base leading-relaxed text-white"
+                     >
+                     Our incubation program may have a nominal fee or equity stake, depending on the services offered and the stage of the startup. We encourage interested entrepreneurs to reach out for detailed information on the fee structure.
+                  </p>
+               </div>
+            </div>
+            <!-- card4 -->
+            <div
+               class="w-full p-4 mb-8 bg-[#243137ff] rounded-lg shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)]   sm:p-8 lg:px-6 xl:px-8"
+               data-aos="fade-up" data-aos-delay="400" >
+               <button
+                  class="flex w-full text-left faq-btn"
+                  @click="openFaq5 = !openFaq5"
+                  >
+                  <div
+                     class="hidden md:block bg-primary/5 dark:bg-white/5 text-primary mr-5 flex h-10 md:w-full max-w-[40px] items-center justify-center rounded-lg"
+                     >
+                    
+                  </div>
+                  <div class="w-full">
+                     <h4
+                        class="mt-1 text-[#BD9F67] text-lg font-semibold text-dark dark:text-white"
+                        >
+                        What is the duration of the incubation program?
+                     </h4>
+                  </div>
+               </button>
+               <div x-show="openFaq5" class="faq-content md:pl-[62px]">
+                  <p
+                     class="py-3 text-base leading-relaxed text-white"
+                     >
+                     The typical duration of our incubation program is 6 to 12 months, during which startups receive support and resources to develop their products and grow their businesses. However, this can vary depending on the specific needs of the startup.
+                  </p>
+               </div>
+            </div>
+            
+         </div>
+      </div>
+   </div>
+   <div class="absolute bottom-0 right-0 z-[-1]">
+      <svg
+         width="1440"
+         height="886"
+         viewBox="0 0 1440 886"
+         fill="none"
+         xmlns="http://www.w3.org/2000/svg"
+         >
+         <path
+            opacity="0.5"
+            d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
+            fill="url(#paint0_linear)"
+            />
+         <defs>
+            <linearGradient
+               id="paint0_linear"
+               x1="1308.65"
+               y1="1142.58"
+               x2="602.827"
+               y2="-418.681"
+               gradientUnits="userSpaceOnUse"
+               >
+               <stop stop-color="#3056D3" stop-opacity="0.36" />
+               <stop offset="1" stop-color="#F5F2FD" stop-opacity="0" />
+               <stop offset="1" stop-color="#F5F2FD" stop-opacity="0.096144" />
+            </linearGradient>
+         </defs>
+      </svg>
+   </div>
+</section>
+<!-- ====== FAQ Section End -->
+<footer class="rounded-lg shadow bg-[#243137ff]">
+  <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+    <div class="sm:flex sm:items-center sm:justify-between">
+      <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+        <img src="./img/favicon-20241001T043051Z-001/favicon/favicon-32x32.png" class="h-8" alt=" Logo" />
+        <span class="self-center text-4xl font-semibold whitespace-nowrap text-[#BD9F67]">SIC</span>
+      </a>
+      <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-[#BD9F67] sm:mb-0 dark:text-gray-400">
+        <li>
+          <a href="#" class="hover:underline me-4 md:me-6">About</a>
+        </li>
+        <li>
+          <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+        </li>
+        <li>
+          <a href="#" class="hover:underline">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <hr class="my-6 sm:mx-auto text-black lg:my-8" />
+    <span class="block text-sm text-gray-500 sm:text-center text-white">© 2023 <a href="#"
+        class="hover:underline">SIC</a>. All Rights
+      Reserved.</span>
+  </div>
+</footer>
+
+
+    <script>
+        let toggle = document.querySelector('#toggle');
+ let navbar = document.querySelector('#navbar-default');
+ 
+ toggle.addEventListener('click', () => {
+  
+   navbar.classList.toggle('hidden');
+ });
+ 
+       </script>
+
+       <!-- aos js -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init([
+    offset="400",
+    duration="1200" 
+  ]);
+  </script>
+</body>
+</html>

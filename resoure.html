@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon-20241001T043051Z-001/favicon/favicon-32x32.png">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <nav class=" bg-[#243137ff] text-[#BD9F67]">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="./img/logo.png" class="h-10" alt="LOGO" />
+            <span class="self-center text-3xl font-bold whitespace-nowrap dark:text-white">SIC</span>
+          </a>
+          <button id="toggle" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border  rounded-lg text-white md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  ">
+              <li>
+                <a href="./home.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline" aria-current="page">Home</a>
+              </li>
+              <li>
+                <a href="./about_us.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">About</a>
+              </li>
+              <li>
+                <a href="./gallery.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Events</a>
+              </li>
+              <li>
+                <a href="./service.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Services</a>
+              </li>
+              <li>
+                <a href="./resoure.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Resources</a>
+              </li>
+              <li>
+                <a href="./contact.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- resource -->
+      <section id="resources" class="py-10 bg-[#f9f9f9]">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-5xl font-bold text-center text-[#BD9F67]">Resources</h2>
+      
+          <!-- Startup Guides -->
+          <div class="my-8">
+            <h3 class="text-2xl font-semibold text-[#BD9F67]" >Startup Guides & Templates</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-24 mt-4">
+               
+                <div
+                  class="relative drop-shadow-xl md:w-96 w-88 mx-4 md-mx-0  h-96 overflow-hidden rounded-xl bg-[#BD9F67]" 
+                >
+                  <div
+                    class="absolute flex   justify-center text-white z-[1] opacity-90 rounded-xl inset-0.5 bg-[#243137ff]"
+                  >
+                  <a href="#" class="p-4 ">
+                    <h4 class="text-2xl md:font-semibold text-center text-[#BD9F67]">How to Start a Startup</h4>
+                    <p class="mt-6 text-white text-sm md:text-base">Starting a business can be daunting, but with the right steps, it's achievable. This guide covers everything from idea validation and market research to funding, legal requirements, and launching. Learn how to build a business plan, secure investments, and take your startup from concept to reality. Whether you're a first-time entrepreneur or a seasoned innovator, this resource provides actionable insights for success.</p>
+                  </a>
+                  </div>
+                  <div class="absolute w-56 h-48 bg-white blur-[50px] -left-1/2 -top-1/2"></div>
+                </div>
+                
+                <div
+                class="relative drop-shadow-xl md:w-96 w-88 mx-4 md-mx-0  h-96 overflow-hidden rounded-xl bg-[#BD9F67]"
+              >
+                <div
+                  class="absolute flex   justify-center text-white z-[1] opacity-90 rounded-xl inset-0.5 bg-[#243137ff]"
+                >
+                <a href="#" class="p-4 ">
+                  <h4 class="text-2xl md:font-semibold text-center text-[#BD9F67]">Business Plan Template</h4>
+                  <p class="mt-6 text-white  text-sm md:text-base">
+                    A well-structured business plan is crucial for turning your vision into a reality. Our comprehensive business plan template will guide you through the key sections like market analysis, financial projections, and operational strategies. Whether you're seeking funding or simply organizing your thoughts, this template provides a clear framework to outline your goals, roadmap, and the steps to bring your startup to life. Download it now to get started on a solid foundation.</p>
+                </a>
+                </div>
+                <div class="absolute w-56 h-48 bg-white blur-[50px] -left-1/2 -top-1/2"></div>
+              </div>
+              <div
+              class="relative drop-shadow-xl md:w-96 w-88 mx-4 md-mx-0  h-96 overflow-hidden rounded-xl bg-[#BD9F67]" 
+            >
+              <div
+                class="absolute flex   justify-center text-white z-[1] opacity-90 rounded-xl inset-0.5 bg-[#243137ff]"
+              >
+              <a href="#" class="p-4 ">
+                <h4 class="text-2xl md:font-semibold text-center text-[#BD9F67]">Pitch Deck Template</h4>
+                <p class="mt-6 text-white  text-sm md:text-base">
+                    A compelling pitch deck is essential for securing investor interest and showcasing your startup's potential. Our Pitch Deck Template provides a streamlined structure to highlight key areas like your business model, market opportunity, team, and financials. Designed to captivate and inform, this template will help you present your startup's vision with clarity and impact. Download the template to craft a professional pitch that sets you apart.
+                  </p></p>
+              </a>
+              </div>
+              <div class="absolute w-56 h-48 bg-white blur-[50px] -left-1/2 -top-1/2"></div>
+            </div>
+            </div>
+          </div>
+      
+          
+      
+          <!-- Funding Opportunities -->
+          <section id="funding-grants" class="py-12 bg-gray-200">
+            <div class="container mx-auto px-6">
+              <div class="my-8 text-center">
+                <h3 class="text-3xl font-bold text-[#BD9F67]">Funding & Grants</h3>
+                <p class="text-gray-700 mt-4 max-w-2xl mx-auto">
+                  Access to funding is crucial for every startup's journey. Whether you're seeking venture capital, angel investments, or government grants, knowing where to find financial support can make all the difference. Below, you'll find resources on various funding options, seed capital programs, and grant opportunities tailored specifically for startups. Get the financial backing you need to bring your innovative ideas to life.
+                </p>
+              </div>
+          
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <a href="#" class="p-6 bg-[#243137ff] shadow-md rounded-lg hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="100">
+                  <h4 class="text-lg font-semibold text-[#BD9F67]">Venture Capital</h4>
+                  <p class="mt-2 text-white">Explore how to secure venture capital funding, and understand what investors look for in early-stage startups.</p>
+                </a>
+                
+                <!-- Card 2 -->
+                <a href="#" class="p-6 bg-[#243137ff] shadow-md rounded-lg hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="200">
+                  <h4 class="text-lg font-semibold text-[#BD9F67]">Government Grants</h4>
+                  <p class="mt-2 text-white">Find out about government grants available for startups, including eligibility requirements and application processes.</p>
+                </a>
+              
+                <!-- Card 3 -->
+                <a href="#" class="p-6 bg-[#243137ff] shadow-md rounded-lg hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="300">
+                  <h4 class="text-lg font-semibold text-[#BD9F67]">Angel Investors</h4>
+                  <p class="mt-2 text-white">Learn how angel investors can provide early-stage funding and strategic mentorship to help grow your startup.</p>
+                </a>
+              
+                <!-- Card 4 -->
+                <a href="#" class="p-6 bg-[#243137ff] shadow-md rounded-lg hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="400">
+                  <h4 class="text-lg font-semibold text-[#BD9F67]">Seed Funding Programs</h4>
+                  <p class="mt-2 text-white">Discover seed funding programs designed to help startups at their earliest stages, providing crucial capital for growth.</p>
+                </a>
+              
+                <!-- Card 5 -->
+                <a href="#" class="p-6 bg-[#243137ff] shadow-md rounded-lg hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="500">
+                  <h4 class="text-lg font-semibold text-[#BD9F67]">Crowdfunding</h4>
+                  <p class="mt-2 text-white">Learn how to leverage crowdfunding platforms to raise capital by reaching out directly to potential customers and supporters.</p>
+                </a>
+              
+                <!-- Card 6 -->
+                <a href="#" class="p-6 bg-[#243137ff] shadow-md rounded-lg hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="600">
+                  <h4 class="text-lg font-semibold text-[#BD9F67]">Startup Competitions</h4>
+                  <p class="mt-2 text-white">Compete for grants and investment opportunities by participating in startup competitions and pitch events.</p>
+                </a>
+              </div>
+            </div>
+          </section>
+          
+      </section>
+      
+
+
+      <!-- footer -->
+      <footer class=" shadow bg-[#243137ff] ">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                    <img src="./img/favicon-20241001T043051Z-001/favicon/apple-touch-icon.png" class="h-8" alt=" Logo" />
+                    <span class="self-center text-4xl font-semibold whitespace-nowrap text-[#BD9F67]">SIC</span>
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-[#BD9F67] sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="./about_us.html" class="hover:underline me-4 md:me-6">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html" class="hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 sm:mx-auto text-black lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center text-white">© 2023 <a href="#" class="hover:underline">arpit</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+   <!-- nav bar js -->
+    <script>
+        let toggle = document.querySelector('#toggle');
+ let navbar = document.querySelector('#navbar-default');
+ 
+ toggle.addEventListener('click', () => {
+  
+   navbar.classList.toggle('hidden');
+ });
+       </script>
+
+<!-- aos js -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init([
+    offset="400",
+    duration="1200" 
+  ]);
+</script>
+</body>
+</html>

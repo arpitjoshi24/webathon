@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon-20241001T043051Z-001/favicon/favicon-32x32.png">
+    <title>SIC</title>
+    <style>
+        *{
+            font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <nav class=" bg-[#243137ff] text-[#BD9F67]">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="./img/logo.png" class="h-10" alt="LOGO" />
+            <span class="self-center text-3xl font-bold whitespace-nowrap dark:text-white">SIC</span>
+          </a>
+          <button id="toggle" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border  rounded-lg text-white md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  ">
+              <li>
+                <a href="./home.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline" aria-current="page">Home</a>
+              </li>
+              <li>
+                <a href="./about_us.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">About</a>
+              </li>
+              <li>
+               <a href="./gallery.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Events</a>
+             </li>
+              <li>
+                <a href="./service.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Services</a>
+              </li>
+             
+              <li>
+                <a href="./resoure.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Resources</a>
+              </li>
+              <li>
+                <a href="./contact.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero section -->
+      <section class="relative h-96">
+        <video class="absolute inset-0 w-full h-full object-cover" autoplay muted loop>
+          <source src="img/Blue Neon Tech Coming Soon Video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="relative z-10">
+          <h1 class="text-center md:text-7xl text-3xl text-white pt-32">SIC (Startup Incubation Center)</h1>
+          <p class="text-center md:text-4xl text-xl text-white pb-12">Incubating your dreams into reality</p>
+        </div>
+      </section>
+
+      <!-- about section -->
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <img class="object-cover object-center rounded" alt="hero" src="./img/event images-20241001T042731Z-001/event images/5.jpg">
+          </div>
+          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 class="title-font text-bold  text-5xl mb-4 font-medium text-gray-900">Why Choose Us ?
+            
+            </h1>
+            <p class="mb-8 leading-relaxed md:mr-24">Welcome to the Startup Incubator Center at Graphic Era (Hill to be University) [SIC-GEHU], 
+              We are a group of tech enthusiasts who love to explore the world of technology and share our knowledge with the world. We have been pivotal in fostering innovation and entrepreneurship. We support startups, helping them overcome challenges, attract talent and investment, and contribute to the local economy. We are proud of our vibrant entrepreneurial community and are committed to supporting more ventures in the future.</p>
+            <div class="flex justify-center">
+             <a class="" href="./about_us.html"> <button
+              class="w-32  mt-6 z-30 py-2 bg-[#BD9F67] rounded-md text-white relative after:-z-20 after:absolute after:h-1 after:w-1 after:bg-[#8F784F] after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 [text-shadow:1px_2px_2px_#fda4af;] hover:[text-shadow:2px_2px_2px_black] text-xl"
+            >
+              read more
+            </button>
+          </a> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- service section -->
+      <section class="text-white body-font bg-[#243137ff]">
+        <div class="container item-around gap-12 flex px-5 py-24 md:flex-row flex-col items-center">
+          
+          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 class="title-font text-bold  text-5xl mb-4 font-medium text-[#BD9F67]">Services We Offer
+            
+            </h1>
+            <p class="mb-8 leading-relaxed text-white " >At the Startup Incubation Center (SIC), we are committed to nurturing and empowering startups with comprehensive support and resources. Our range of services is designed to assist entrepreneurs at every stage of their startup journey, from ideation to scaling. Here's what we offer:</p>
+            <p class="my-6" data-aos="flip-down" data-aos-delay="100"> <span class="text-semibold text-2xl text-[#BD9F67] "> 1. Mentorship & Guidance -</span> <br>
+              Our team of seasoned mentors and industry experts provides personalized guidance to help you refine your business idea, create a solid business plan, and navigate the challenges of starting and growing a business.
+              </p>
+              
+             <p class="my-6" data-aos="flip-down" data-aos-delay="300"> <span class="text-semibold text-2xl text-[#BD9F67] ">2. Networking Opportunities-</span> <br>
+              We offer a dynamic environment where startups can connect with potential investors, industry leaders, and other entrepreneurs. Our networking events, workshops, and pitch sessions open doors to valuable partnerships and funding opportunities.</p>
+
+             <p class="my-6" data-aos="flip-down" data-aos-delay="500"> <span class="text-semibold text-2xl text-[#BD9F67] ">3. Incubation & Acceleration Programs-</span> <br>
+              We provide incubation and acceleration programs tailored to your startup's needs. From initial idea validation to market entry and scaling, our programs offer structured guidance to accelerate your growth.</p>
+
+            <div class="flex justify-center">
+             <a href="./service.html" ><button data-aos="zoom-in" data-aos-delay="700"
+              class="w-32  mt-6 z-30 py-2 bg-[#BD9F67] rounded-md text-white relative after:-z-20 after:absolute after:h-1 after:w-1 after:bg-[#8F784F] after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 [text-shadow:1px_2px_2px_#fda4af;] hover:[text-shadow:2px_2px_2px_black] text-xl"
+            >
+              read more
+            </button></a> 
+              
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 ">
+            <img class="object-cover object-center rounded w-96 h-96 " alt="hero" src="./img/hand.jpg">
+          </div>
+        </div>
+      </section>
+
+     <!-- gallery section -->
+     <section class="text-gray-600 body-font">
+      <h1 class="text-center mt-12 text-4xl text-[#BD9F67]">Event gallery </h1>
+      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+        
+          
+      
+        
+        <div class="flex flex-wrap md:-m-2 -m-1">
+          <div class="flex flex-wrap w-1/2">
+            <div class="md:p-2 p-1 w-1/2">
+              <img alt="gallery" class="w-full object-cover h-full object-center block" src="./img/event images-20241001T042731Z-001/event images/1.jpg">
+            </div>
+            <div class="md:p-2 p-1 w-1/2">
+              <img alt="gallery" class="w-full object-cover h-full object-center block" src="./img/event images-20241001T042731Z-001/event images/2.jpg">
+            </div>
+            <div class="md:p-2 p-1 w-full">
+              <img alt="gallery" class="w-full h-full object-cover object-center block" src="./img/event images-20241001T042731Z-001/event images/3.jpg">
+            </div>
+          </div>
+          <div class="flex flex-wrap w-1/2">
+            <div class="md:p-2 p-1 w-full">
+              <img alt="gallery" class="w-full h-full object-cover object-center block" src="./img/event images-20241001T042731Z-001/event images/4.jpg">
+            </div>
+            <div class="md:p-2 p-1 w-1/2">
+              <img alt="gallery" class="w-full object-cover h-full object-center block" src="./img/event images-20241001T042731Z-001/event images/5.jpg">
+            </div>
+            <div class="md:p-2 p-1 w-1/2">
+              <img alt="gallery" class="w-full object-cover h-full object-center block" src="./img/event images-20241001T042731Z-001/event images/6.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+       
+  
+  
+
+<!-- footer -->
+      <footer class=" shadow bg-[#243137ff] ">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                    <img src="./img/favicon-20241001T043051Z-001/favicon/apple-touch-icon.png" class="h-8" alt=" Logo" />
+                    <span class="self-center text-4xl font-semibold whitespace-nowrap text-[#BD9F67]">SIC</span>
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-[#BD9F67] sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="./about_us.html" class="hover:underline me-4 md:me-6">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html" class="hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 sm:mx-auto text-black lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center text-white">© 2023 <a href="#" class="hover:underline">arpit</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+
+   <!-- nav bar js -->
+    <script>
+        let toggle = document.querySelector('#toggle');
+       
+ let navbar = document.querySelector('#navbar-default');
+ 
+ toggle.addEventListener('click', () => {
+  
+   navbar.classList.toggle('hidden');
+ });
+       </script>
+
+<!-- aos js -->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init([
+    offset="400",
+    duration="1200" 
+  ]);
+</script>
+
+
+</body>
+</html>

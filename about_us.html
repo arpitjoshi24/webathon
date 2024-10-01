@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="./img/favicon-20241001T043051Z-001/favicon/favicon-32x32.png">
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Poppins", system-ui;
+        font-weight: 500;
+        font-style: normal;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class=" bg-[#243137ff] text-[#BD9F67]">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="./img/logo.png" class="h-10" alt="LOGO" />
+            <span class="self-center text-3xl font-bold whitespace-nowrap dark:text-white">SIC</span>
+          </a>
+          <button id="toggle" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border  rounded-lg text-white md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  ">
+              <li>
+                <a href="./home.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline" aria-current="page">Home</a>
+              </li>
+              <li>
+                <a href="./about_us.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">About</a>
+              </li>
+              <li>
+               <a href="./gallery.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Events</a>
+             </li>
+              <li>
+                <a href="./service.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Services</a>
+              </li>
+             
+              <li>
+                <a href="./resoure.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Resources</a>
+              </li>
+              <li>
+                <a href="./contact.html" class="block py-2 px-3  rounded  md:border-0  md:p-0  hover:underline">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <section class="">
+  
+        <h2 class="text-4xl md:text-7xl px-4 py-12 rounded text-center text-[#BD9F67] ">About Us</h2>
+  <div class="md:flex md:mx-12 mx-4"> 
+    <div class="md:basis-6/12">
+      <p class="md:mx-24 mx-4 pb-6 text-base text-[#243137ff]">
+        Welcome to the Startup Incubator Center at Graphic Era (Hill University) [SIC-GEHU], where innovation meets opportunity. We are a dynamic group of tech enthusiasts driven by a shared passion for exploring the ever-evolving world of technology and spreading that knowledge to the wider community. As a pivotal force in fostering innovation and entrepreneurship, we provide startups with the support they need to navigate the complexities of the business world.
+        Our incubator offers a comprehensive ecosystem that helps startups overcome challenges, from securing funding to scaling operations. We connect entrepreneurs with mentors, provide access to cutting-edge resources, and foster collaboration among creative minds. By facilitating access to talent and investment opportunities, we aim to drive growth and innovation in local and global economies alike.
+        At SIC-GEHU, we take pride in our vibrant entrepreneurial community, which thrives on creativity, collaboration, and relentless pursuit of success. Whether you're a student with a groundbreaking idea or an established entrepreneur looking for support, our incubator is the perfect launchpad for your journey. We are committed to nurturing the next generation of innovators and are excited to continue empowering ventures that will shape the future.
+      </p>
+    </div>
+    <div class="  md:basis-6/12 ">
+      <img
+        src="./img/event images-20241001T042731Z-001/event images/5.jpg"
+        alt="Our Team Image" class="w-full h-auto rounded shadow-lg" />
+    </div>
+  </div>
+  </section>
+
+  <section >
+   
+    
+      
+        <h2 class="text-4xl text-center md:text-6xl font-semibold text-[#243137ff] my-6">Supported By</h2>
+   
+
+      <!-- Images Section -->
+      <div class="md:flex mx-16 md:mx-0 justify-center gap-16 mx-92 mb-24">
+        <div class="">
+          <img src="https://tbi.geu.ac.in/assets/sb1-CcdklL4u.png" alt="Image 1" class="w-52 pt-6" data-aos="fade-right" data-aos-delay="100" />
+        </div>
+        <div class="">
+          <img src="https://tbi.geu.ac.in/assets/sb2-DZ3MAb1K.png" alt="Image 2" class="w-52 pt-6"  data-aos="fade-up" data-aos-delay="200" />
+        </div>
+        <div class="">
+          <img src="https://tbi.geu.ac.in/assets/sb3-BGV78F_K.png" alt="Image 3" class="w-52 pt-6" data-aos="fade-up" data-aos-delay="300" />
+        </div>
+        <div class="">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD7NQGRmaVV5R7-7-pg4mldg282Xr9mrJRCw&s"
+            alt="Image 4" class="md:w-40 mt-12 pb-4 w-52" data-aos="fade-left" data-aos-delay="400" />
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+  <h3 class="font-bold text-5xl text-center text-[#243137ff] mb-4 mt-2">
+    Our Mission 
+  </h3>
+  <section class="md:flex mx-12 gap-12">
+    <!-- First half: Our Mission -->
+    <div class="flex flex-col pt-4 basis-6/12 ">
+        <img
+          src="./img/event images-20241001T042731Z-001/event images/3.jpg"
+          alt="" class="" data-aos="fade-right" data-aos-delay="300">
+    </div>
+
+    <!-- Second half: Text and image -->
+    <div class="basis-6/12" data-aos="fade-left" data-aos-delay="500">
+      <div class=" my-6 text-[#BD9F67]">
+        <p>Our mission is to create a thriving entrepreneurial ecosystem in Uttarakhand by focusing on four key areas: Skill Development & Internships, Innovation & Incubation Support, Sustainable Practices & Economic Growth, and Community Building and Networking. By concentrating on these pillars, we contribute to the region's economic growth and prosperity.
+          Our vision is to be the leading force for skill development, innovation, and sustainability in Uttarakhand. We empower entrepreneurs with skills and resources to turn ideas into successful ventures. By fostering continuous learning and innovation, we aim to drive economic growth, promote sustainable practices, and create a vibrant entrepreneurial ecosystem for a prosperous future.
+        </p>
+      </div>
+      <img src="./img/event images-20241001T042731Z-001/event images/6.jpg" alt="" class=" my-8">
+    </div>
+  </section>
+
+  <section class="bg-[#243137ff] text-[#BD9F67]">
+    <!-- Grid Container -->
+    <div class="md:grid  grid-cols-3 grid-rows-2 gap-16 md:mx-6 pt-28 gap-y-16 md:pl-16 mx-6 md:ml-12 md:mr-12 pb-4 mb-8">
+
+      <!-- First Row of Mantras -->
+      <!-- Mantra Title -->
+      
+      <div class="md:flex flex-col pt-6 md:pt-24 items-center">
+        <h3 class="text-4xl text-bold md:text-5xl text-center">Our Mantra</h3>
+      </div>
+
+      <div class="flex flex-col items-center" data-aos="flip-up" data-aos-delay="300">
+        <h1 class="md:text-9xl my-5 md:my-0 text-4xl">01</h1>
+        <h4 class="text-3xl">Innovation</h4><br><br>
+        <p class="md:text-left">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. consectetur adipisicing elit.
+          Assumenda hic ratione sint vero consequuntur, vel at obcaecati et laudantium placeat!</p>
+      </div>
+
+      <div class="flex flex-col items-center" data-aos="flip-up" data-aos-delay="400">
+        <h1 class="md:text-9xl my-5 text-4xl">02</h1>
+        <h4 class="text-3xl">Accountability</h4><br><br>
+        <p class="text-left">Lorem ipsum dolor sit, amet Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab
+          inventore ut tempora ipsa nemo eaque! consectetur adipisicing elit. Iure quibusdam possimus nostrum. Odit quia
+          voluptate fuga iusto repellendus quisquam et.</p>
+      </div>
+
+      <!-- Second Row of Mantras -->
+      <div class="flex flex-col items-center pb-20" data-aos="flip-up" data-aos-delay="500">
+        <h1 class="md:text-9xl my-5 text-4xl">03</h1>
+        <h4 class="text-3xl">Commitment</h4><br><br>
+        <p class="text-left">Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Excepturi eius nesciunt expedita explicabo, voluptatem necessitatibus! consectetur adipisicing elit. Facere,
+          aperiam.</p>
+      </div>
+
+      <div class="flex flex-col items-center " data-aos="flip-up" data-aos-delay="600">
+        <h1 class="md:text-9xl my-5 text-4xl">04</h1>
+        <h4 class="text-3xl">Team Work</h4><br><br>
+        <p class="text-left">Lorem ipsum dolor sit, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
+          suscipit reiciendis illo non commodi cupiditate! amet consectetur adipisicing elit. Quisquam, necessitatibus.
+        </p>
+      </div>
+
+      <div class="flex flex-col items-center " data-aos="flip-up" data-aos-delay="700">
+        <h1 class="md:text-9xl my-5 text-4xl">05</h1>
+        <h4 class="text-3xl">Execution</h4><br><br>
+        <p class="text-left">Lorem ipsum dolor sit amet Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Perspiciatis debitis delectus quidem totam, aut eveniet. consectetur adipisicing elit. Tempore, quis.</p>
+      </div>
+    </div>
+  </section> 
+    <h3 class="text-center text-[#BD9F67] text-4xl"> Our Team </h3>
+      <section id="card-container" class="flex flex-wrap justify-around gap-8 mt-16 md:ml-12 mx-6 mb-12">
+    
+      <script>
+        
+        const cardData = [
+          {
+            id: 1,
+            imgSrc: "https://www.boat-lifestyle.com/cdn/shop/files/AG.jpg?v=1714645179",
+            title: "Member 1",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
+            id: 2,
+            imgSrc: "https://vanitystardom.com/wp-content/uploads/2023/11/vineetas.jpg",
+            title: "Member 2",
+            description: "Nunc felis ligula, facilisis et elementum ac, elementum ac risus."
+          },
+          {
+            id: 3,
+            imgSrc: "https://media.assettype.com/bloombergquint%2F2023-05%2F5da09b86-aa2d-4761-8c9a-c5eab30f5a1d%2F1677988934559.jpg?auto=format%2Ccompress&w=1200",
+            title: "Member 3",
+            description: "Praesent ullamcorper lacus sit amet ligula pellentesque."
+          }
+        ];
+    
+       
+        const Cards = () => {
+          const cardContainer = document.getElementById('card-container');
+    
+          cardContainer.innerHTML = cardData.map(card => `
+            <div class="relative flex w-72 flex-col rounded-xl bg-[#243137ff] bg-clip-border  shadow-md">
+              <div class="relative mx-4 -mt-6 h-60 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+                <img src="${card.imgSrc}" alt="Card image ${card.id}">
+              </div>
+              <div class="p-6">
+                <h5 class="mb-2 block text-[#BD9F67] font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                  ${card.title}
+                </h5>
+                <p class="block font-sans text-base font-light leading-relaxed text-slate-100 text-inherit antialiased">
+                  ${card.description}
+                </p>
+              </div>
+            </div>
+          `).join('');
+        };
+    
+        Cards();
+      </script>
+    </section>
+
+
+
+
+
+
+
+
+
+ 
+    <footer class="rounded-lg shadow bg-[#243137ff]">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+          <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+              <img src="./img/favicon-20241001T043051Z-001/favicon/favicon-32x32.png" class="h-8" alt=" Logo" />
+              <span class="self-center text-4xl font-semibold whitespace-nowrap text-[#BD9F67]">SIC</span>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-[#BD9F67] sm:mb-0 dark:text-gray-400">
+              <li>
+                <a href="#" class="hover:underline me-4 md:me-6">About</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <hr class="my-6 sm:mx-auto text-black lg:my-8" />
+          <span class="block text-sm text-gray-500 sm:text-center text-white">© 2023 <a href="#"
+              class="hover:underline">SIC</a>. All Rights
+            Reserved.</span>
+        </div>
+      </footer>
+
+
+
+  <!-- aos js -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init([
+    offset="400",
+    duration="1200" 
+  ]);
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      let toggle = document.querySelector("#toggle");
+      let navbar = document.querySelector("#navbar-default");
+
+      toggle.addEventListener("click", () => {
+        navbar.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
